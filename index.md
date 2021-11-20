@@ -84,7 +84,7 @@ You can also go to https://datascience.si.edu/carpentries and click the “Sign 
   height="350px"
   scrolling="auto">
 </iframe>
-<br /><br />
+
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
@@ -92,7 +92,7 @@ You can also go to https://datascience.si.edu/carpentries and click the “Sign 
   height="350px"
   scrolling="auto">
 </iframe>
-<br /><br />
+
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
