@@ -19,6 +19,7 @@ email: ["pappalardop@si.edu", "manuelr@si.edu"]    # boxed, comma-separated list
 collaborative_notes: https://pad.carpentries.org/2021-12-09-smithsonian-online # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite1: 214763823377  # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 eventbrite2: 214815568147 
+eventbrite3: 214818015467
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -90,10 +91,24 @@ You can also go to https://datascience.si.edu/carpentries and click the “Sign 
 
 {% endif %}
 
+<br> <br>
 {% if page.eventbrite2 %}
 
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite2}}&ref=etckt"
+  frameborder="0"
+  width="100%"
+  height="350px"
+  scrolling="auto">
+</iframe>
+
+{% endif %}
+
+<br> <br>
+{% if page.eventbrite3 %}
+
+<iframe
+  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite3}}&ref=etckt"
   frameborder="0"
   width="100%"
   height="350px"
